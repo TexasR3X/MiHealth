@@ -3,4 +3,9 @@
 
 nav ul, nav ul li {display: inline;}
 
-img {height: 500px;}
+div {
+    background: #fff url(images/image1.jpg) center center;
+    width: 400px;
+    height: 400px;
+    background-image: 300px 300px;
+}
