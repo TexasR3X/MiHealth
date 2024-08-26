@@ -1,11 +1,37 @@
+body {
+    background: #ddd url(images/background.png);
+    margin: 0;
+}
+/*
+body * {
+    border: 3px solid #000;
+}
+*/
+
 .color-red {color: #d91212;}
 .color-green {color: #16aa14;}
 
-nav ul, nav ul li {display: inline;}
+#logo {
+    padding-top: 16px;
+}
+header {
+    background: #fff;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+header ul, nav ul li {display: inline;}
+header a {
+    color: #333;
+    text-decoration: none;
+}
 
-div {
+/*
+div.image1 {
     background: #fff url(images/image1.jpg) center center;
     width: 400px;
     height: 400px;
     background-image: 300px 300px;
 }
+*/
