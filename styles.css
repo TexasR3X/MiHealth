@@ -34,16 +34,25 @@ header ul li {margin: 0 16px;}
 
 main {
     padding: 20px 40px;
+    display: flex;
 }
 h1, #logo {font-family: Anton;}
 h1 {
     font-size: 45px;
     margin: 10px 0 0 0;
 }
-
 a.browserMenu {
     font-size: 19px;
 }
+
+div.imageContainer {display: flex;}
+div.image {
+    height: 200px;
+    width: 200px;
+}
+div.image1 {background: #fff url(images/image1.jpg);}
+div.image2 {background: #fff url(images/image2.jpg);}
+div.image3 {background: #fff url(images/image3.jpg);}
 
 
 /*
