@@ -6,6 +6,7 @@
 :root {
     --green: #16aa14;
     --red: #d91212;
+    --imageHeight: 370px;
 }
 
 body {
@@ -54,8 +55,8 @@ div.imageContainer {
     margin-left: 35px;
 }
 div.image {
-    height: 300px;
-    width: 200px;
+    height: var(--imageHeight);
+    width: calc(var(--imageHeight) * 7 / 10);
     margin-left: 15px;
     position: relative;
 }
